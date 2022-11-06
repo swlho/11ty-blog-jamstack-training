@@ -1,6 +1,6 @@
 const util = require('util');
 const algoliasearch = require('algoliasearch');
-const searchClient = algoliasearch('', '');
+const searchClient = algoliasearch('YSUKP9FXCH', 'e2e6a7d8d8376f34f96504f26aeae171');
 const algoliaIndex = searchClient.initIndex('blog');
 
 module.exports = function(eleventyConfig) {

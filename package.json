@@ -11,5 +11,8 @@
   "license": "ISC",
   "dependencies": {
     "algoliasearch": "^3.35.1"
+  },
+  "devDependencies": {
+    "@11ty/eleventy": "^1.0.1"
   }
 }
